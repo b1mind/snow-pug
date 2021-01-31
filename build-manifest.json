@@ -1,0 +1,33 @@
+{
+  "inputs": {
+    "global.css": {
+      "bytes": 372,
+      "imports": []
+    },
+    "src/index.js": {
+      "bytes": 25,
+      "imports": []
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/global.css": {
+      "imports": [],
+      "inputs": {
+        "global.css": {
+          "bytesInOutput": 292
+        }
+      },
+      "bytes": 293
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/src/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "src/index.js": {
+          "bytesInOutput": 24
+        }
+      },
+      "bytes": 25
+    }
+  }
+}
