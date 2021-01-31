@@ -1,3 +1,6 @@
 Todo:
+  ✔ set up deploy @done(21-01-31 14:23)
+  ✔ get base styles from psp-template @done(21-01-31 15:11)
   ☐ see if we can get mount / to work with index.html in url
-  ☐ set up a better options insert for templates ?
+  ☐ includes work but only when mounted... need js data objects
+  ☐ set up a full template with pages
