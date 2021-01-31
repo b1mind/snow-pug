@@ -1,0 +1,12 @@
+include ../templates/header.pug
+
+main
+  .center
+  .wrap
+    h1.center This world needs more hellos
+    -let a = 6
+    .grid
+      while a > 0
+        .cell
+          p I am a "Hello World"
+        -a--
