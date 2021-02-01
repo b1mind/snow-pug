@@ -1,29 +1,29 @@
 {
   "inputs": {
     "global.css": {
-      "bytes": 2179,
+      "bytes": 2236,
       "imports": []
     },
-    "src/index.js": {
+    "src/js/index.js": {
       "bytes": 224,
       "imports": []
     }
   },
   "outputs": {
-    "../node_modules/.cache/snowpack/~~bundle~~/global.css": {
+    "../~~bundle~~/global.css": {
       "imports": [],
       "inputs": {
         "global.css": {
-          "bytesInOutput": 1667
+          "bytesInOutput": 1716
         }
       },
-      "bytes": 1668
+      "bytes": 1717
     },
-    "../node_modules/.cache/snowpack/~~bundle~~/src/index.js": {
+    "../~~bundle~~/src/js/index.js": {
       "imports": [],
       "exports": [],
       "inputs": {
-        "src/index.js": {
+        "src/js/index.js": {
           "bytesInOutput": 169
         }
       },
