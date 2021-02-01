@@ -50,8 +50,9 @@ module.exports = {
   plugins: [
     // rollupPlugin,
     // '@snowpack/plugin-svelte',
-    '@snowpack/plugin-sass',
-    '@marlonmarcello/snowpack-plugin-pug',
+    ['@snowpack/plugin-sass', {}],
+    ['@marlonmarcello/snowpack-plugin-pug', {}],
+    '@snowpack/plugin-postcss',
   ],
 
   devOptions: {
