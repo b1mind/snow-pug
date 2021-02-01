@@ -4,9 +4,12 @@ html(lang='en')
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     meta(name='description' content='1M Pug Snowpack Template')
+
     link(rel='shortcut icon' href='./favicon.ico' type='image/x-icon')
     link(rel='stylesheet' type='text/css' href='./global.css')
-    script(defer='' type='module' src='./src/index.js')
+
+    script(defer type='module' src='./src/index.js')
+
     title 1M Pug SnowPack Template
 
 body
@@ -23,14 +26,15 @@ body
         li item2
         li item3
         li item4
+      
+  main
+    .wrap
+      h1.center This world needs more hellos
 
-main
-  .center
-  .wrap
-    h1.center This world needs more hellos
-    -let a = 6
-    .grid
-      while a > 0
-        .cell
-          p I am a "Hello World"
-        -a--
+      -let a = 6
+      .grid
+        while a > 0
+
+          .cell
+            p I am a "Hello World"
+          -a--
