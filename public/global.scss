@@ -24,7 +24,8 @@ body {
   height: 100%;
   min-height: 100%;
   margin: 0;
-  background: gray;
+  color: var(--clr-white);
+  background: #1b1b1b;
 }
 
 a {
@@ -79,6 +80,7 @@ ul {
 }
 
 header {
+  color: var(--clr-black);
   background: var(--clr);
   @media (max-width: $minWidthMed) {
     position: sticky;

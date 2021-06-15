@@ -13,7 +13,12 @@ module.exports = {
   plugins: [
     // '@snowpack/plugin-svelte',
     ['@snowpack/plugin-sass', {}],
-    ['@marlonmarcello/snowpack-plugin-pug', {}],
+    [
+      '@marlonmarcello/snowpack-plugin-pug',
+      {
+        basedir: './',
+      },
+    ],
     '@snowpack/plugin-postcss',
   ],
 

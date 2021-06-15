@@ -1,5 +1,4 @@
 console.log('working?')
-
 const nav = document.querySelector('.navMain')
 const canHazBurger = document.querySelector('.canHazBurger')
 
